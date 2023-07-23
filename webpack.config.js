@@ -25,7 +25,7 @@ module.exports = {
         {
             
 test: /\.(html|htm)$/, loader: 'html?minimize=false'
-        }
+        },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader']
