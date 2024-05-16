@@ -9,7 +9,7 @@
 <script src="ytdl-ffmpeg-demos.js"></script>
 <script>
     (async () => {
-        const buffer = await script.getBestAudioBuffer("https://www.youtube.com/watch?v=gjx-iHGXk9Q");
+        const buffer = await script.getBestAudioBuffer("https://www.youtube.com/watch?v=JS64cOhHPWk");
         const video = document.getElementById("player");
         video.src = URL.createObjectURL(new Blob([buffer], {type: "video/mp4"}));
     })();
